@@ -128,7 +128,7 @@ Matrix createLocalK(int e,mesh &m){
     float Ae,J,D;
     
     //Componentes de K
-    // [ A+K  G+H ]
+    // [ A+K  G-H ]
     // [  D   0 ]
     Matrix matrixA,matrixK,matrixG,matrixH,matrixD;
     Matrix K,g_matrix,g_matrix_t,Alpha,Beta,Alphat,Betat,BPrima,BPrimat;
